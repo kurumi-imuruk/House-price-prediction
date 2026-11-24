@@ -36,8 +36,7 @@ The generated target is based on a linear relationship between area, bedrooms, l
 The model learns an equation of the form:
 
 ```text
-Price = intercept + area_coefficient × area + bedroom_coefficient × bedrooms
-        + location coefficients
+Price = intercept + area_coefficient × area + bedroom_coefficient × bedrooms + location coefficients
 ```
 
 ## Model evaluation
